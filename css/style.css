@@ -1,0 +1,555 @@
+*{
+    font-family: 'Overpass','Ubuntu';
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    width:100%;
+}
+
+.first{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 160%;  
+    border-bottom-left-radius: 6rem;
+    background-color: hsl(353, 100%, 62%);
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/bg-pattern-intro-desktop.svg);
+}
+
+.first .firsta{
+    display: flex;
+    align-items: center;
+    padding: 4rem 3rem;
+}
+
+.first .firsta .ull{
+    margin-left: 4rem;
+    align-items: center;
+    display: flex;
+    flex: auto;
+}
+
+.first .firsta .ull li{
+    list-style: none;
+    margin-right: 1.5rem;
+    position: relative;
+}
+
+.first .firsta .ull li a{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Ubuntu';
+    text-decoration: unset;
+    font-weight: 700;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.first .firsta .ull .menu{
+   display: none;
+   transition: .5s;   
+}
+
+.first .firsta .ull li a:hover{
+    text-decoration: underline;
+}
+
+.first .firsta .ull li:hover img{
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.first .firsta .ull li:hover .menu {
+    display: block;
+}
+
+.first .firsta .ull li .menu ul{
+    position: absolute;
+    margin-top: .2rem;
+    margin-left: -2rem;
+    background: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
+}
+
+.first .firsta .ull li .menu ul li{
+    display: block;
+    padding-top: 10px;
+}
+
+.first .firsta .ull li .menu ul li a{
+    color: hsl(240, 0%, 56%);
+    transition: .5s;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+}
+
+.first .firsta .ull li .menu ul li a:hover{
+    color: hsl(0, 0%, 5%);
+}
+
+.first .firsta .login1{
+    display: flex;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.first .firsta .login1 li{
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.first .firsta .login1 li a{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Ubuntu';
+    text-decoration: unset;
+    font-weight: 700;
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+.first .firsta .login1 li .sign-up{
+    padding: .8rem 2.5rem;
+    background: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    border: none;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.first .firsta .login1 li .sign-up:hover{
+    background: hsl(355, 100%, 74%);
+    color: hsl(0, 0%, 100%);
+}
+.first .firsta #menu1{
+    display: none;
+}
+
+.first .firsta #menu2{
+    display: none;
+}
+
+.first .links1{
+   text-align: center;
+   margin-top: 7rem;
+}
+
+.first .links1 h1{
+    font-size: 3.4rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: sans-serif,'ubuntu';
+    padding-bottom: 3rem;
+}
+
+.first .links1 p{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 100;
+    font-family: sans-serif,'ubuntu';
+    padding-bottom: 5rem;
+}
+
+.first .links1 li{
+    list-style: none;
+    display: inline;
+    margin-right: 2.5rem;  
+}
+
+.first .links1 li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family:'ubuntu';
+    font-size: 0.9rem;
+}
+.first .links2 .start{
+    padding: .8rem 2.5rem;
+    background: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
+    border: none;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.first .links2 .learn{
+    border-radius: 2rem;
+    transition: .5s;
+    padding: .8rem 2.5rem;
+    color: hsl(0, 0%, 100%);
+    border: solid hsl(0, 0%, 100%);
+}
+
+.first .links2 .start:hover{
+    background: hsl(355, 100%, 74%);
+    color: hsl(0, 0%, 100%);
+}
+
+.first .links2 .learn:hover{
+    color: hsl(355, 100%, 74%);
+    background-color: hsl(0, 0%, 100%);
+}
+.second{
+    position: relative;
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.second h2{
+    align-items: center;
+    padding-top: 6rem;
+    padding-left: 28rem;
+    font-size: 2.5rem;
+    margin-bottom: -8rem;
+    font-family: 'Overpass';
+    font-weight: 700;
+    color: hsl(208, 49%, 24%);
+}
+
+.second .second22{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.second .second22 .second3{
+    flex-basis: 50%;
+    padding-left: 8rem;
+}
+.second .second22 .second3 h3{
+    font-size: 1.8rem;
+    color: hsl(208, 49%, 24%);
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.second .second22 .second3 p{
+    margin-bottom: 4rem;
+    font-family: sans-serif;
+    color: #808080;
+    font-weight: 100;
+    width: 80%;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+    line-height: 25px;
+}
+
+.second .second22 .second4{
+    position: relative;
+    flex-basis: 50%;
+}
+.second .second22 .second4 .imge{
+    width: 145%;
+    position: relative;
+}
+
+.second .mobile-img
+{
+    display: none;
+}
+
+.third{
+    width: 100%;
+    padding: 8rem 0rem;
+    position: relative;
+    background: hsl(237, 17%, 21%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 6rem;
+    border-bottom-left-radius: 6rem;
+    background-image: url(../images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-position:-25rem -50rem;
+     
+}
+.third .left{
+    flex-basis: 50%;
+    position: relative;
+    
+}
+
+.third .left .phone-img{
+    position: absolute;
+    left: 5rem;
+    top: -16rem;
+}
+
+.third .right{
+    flex-basis: 50%;
+}
+
+.third .right h4{
+    font-size: 2.3rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+}
+
+.third .right p{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    line-height: 1.9rem;
+}
+
+.four
+{
+    width: 100%;
+}
+.four .four1
+{
+    display:flex;
+}
+.four .four1 .img1
+{
+    display: none;
+}
+.four .four1 .four2
+{
+    padding: 70px 170px;
+    margin: 200px 120px;
+}
+.four .four1 .four2 h4
+{
+    font-size: 25px;
+    color: hsl(208, 49%, 24%);
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 600;
+    
+}
+.four .four1 .four2 p
+{
+    color: hsl(208, 6%, 61%);
+    font-size: 17px;
+    font-weight: lighter;
+    font-family:'Ubuntu', sans-serif ;
+    letter-spacing: 0.2px;
+    padding-bottom: 30px;
+}
+.four .four1 .img2
+{
+    width: 50%;
+    height: 100%;
+    padding-top: 70px;
+    margin-top: 30px;
+    margin-left: -280px;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    position: relative;
+    border-top-right-radius: 6rem;
+    background-color: hsl(240, 10%, 16%);
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 9rem;
+}
+
+.footer .footer1{
+    display: flex;
+    padding: 5rem 0rem;
+}
+
+.footer .footer1 img{
+    padding-left: 6rem;
+}
+
+.footer .list1{
+    flex: auto;
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.footer .list1 li{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer .list1 li a{
+    color: hsl(240, 2%, 79%);
+    cursor: pointer;
+    transition: 1s;
+    font-family: sans-serif;
+    text-decoration: unset;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.footer .list1 .menu{
+   transition: .5s;   
+}
+
+.footer .list1 li a:hover{
+    text-decoration: underline;
+}
+
+
+.footer .list1 li .menu ul{
+    position: absolute;
+    text-align: left;
+    
+}
+
+.footer .list1 li .menu ul li{
+    display: block;
+    padding-top: 20px;
+}
+
+.footer .list1 li .menu ul li a{
+    color: hsl(240, 2%, 79%);
+    transition: .5s;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer .list1 li .menu ul li a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:700px){
+    .footer .list1{
+        margin-left: 3rem;
+    }
+    .footer .footer1 img{
+        padding-left: 3rem;
+    }
+}
+
+
+@media (max-width:500px){
+    .footer .list1{
+        margin-left: 0rem;
+    }
+    .footer .footer1 img{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width:425px){
+    .footer{
+        width: 100%;
+        position: absolute;
+        border-top-right-radius: 6rem;
+        background-color: hsl(240, 10%, 16%);
+        overflow: hidden;
+        height: auto;
+        padding-bottom: 0rem;
+    }
+    
+    .footer .footer1{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+    }
+    
+    .footer .footer1 img{
+        text-align: center;
+        padding-left: 4rem;
+        position: relative;
+        width: 50%;
+    }
+    
+    .footer .list1{
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    
+    .footer .list1 li{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        list-style: none;
+        margin-right: 5rem;
+        position: relative;
+        padding-top: 2rem;
+    }
+
+    .footer .list1 li a{
+        font-size: 1.3rem;
+    }
+    
+    
+    .footer .nav li .menu ul{
+        position: relative;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    
+    .footer .list1 li .menu ul li a{
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 425px){
+    .first{
+        background-size: 350%;  
+        width: auto;
+    }
+    .first .firsta {
+        display: flex;
+        flex-direction: column column;
+        justify-content: space-between;
+        margin-right: -2rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    .first .links1 h1{
+        font-size: 29px;
+        text-align: center;
+        margin: auto;
+    }
+    .first .links1 p{
+        font-size: 15px;
+        text-align: center;
+        margin: auto;
+    }
+    .first .links1 li{
+        margin: auto;
+    }
+    
+    .first .links1 li a{
+        text-align: center;
+        font-size: 1rem;
+        margin: 0rem 0rem;
+        padding: 0rem;
+    }
+}
